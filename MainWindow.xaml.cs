@@ -25,7 +25,7 @@ namespace TheCashier
         {
             InitializeComponent();
             calculator = new Calculator();
-            ListBox.ItemsSource = calculator.getListItem();
+
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
